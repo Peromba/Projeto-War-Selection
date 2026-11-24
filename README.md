@@ -2,7 +2,11 @@ O tema do Trabalho foi escolhido referente a um jogo digital chamado War Selecti
 
 Nome dos integrantes: Murilo Godoy, Julia Lavinia, Pedro Godoy, Enrico Rodrigues.
 
+Execute esse codigo para configurar a senha do MySQL (.env), apos criar o arquivo adicione a senha do seu sistema:
+cp .env.example .env
+
 execute o codigo no terminal na pasta do codigo no VSCODE para iniciar o servidor:
+
 npx express-generator --view=ejs
 npm install
 npm start
