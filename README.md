@@ -7,6 +7,5 @@ cp .env.example .env
 
 execute o codigo no terminal na pasta do codigo no VSCODE para iniciar o servidor:
 
-npx express-generator --view=ejs
 npm install
 npm start
