@@ -13,21 +13,12 @@ CREATE TABLE tropa (
 DROP TABLE tropa;
 
 INSERT INTO tropa (id, nome, pais, dano, vida, era) VALUES
-<<<<<<< HEAD
 ('2026001', 'Holy Fox', 'Inglaterra', 180, 900, 'Revolução Industrial'),
 ('2026002', 'Big Bertha', 'Alemanha', 320, 800, 'Revolução Industrial'),
 ('2026003', 'Lasque', 'Abstrato', 16, 100, 'Idade Média Alta'),
 ('2026004', 'Granadeiro', 'Abstrato', 21, 100, 'Idade Média Baixa'),
 ('2026005', 'FT-17', 'França', 65, 600, 'Revolução Industrial'),
 ('2026006', 'Sarbaz', 'Abstrato', 12, 60, 'Ásia Ocidental');
-=======
-('2026001', 'Holy Fox', 'Inglaterra', '180', '900', 'Revolução Industrial'),
-('2026002', 'Big Bertha', 'Alemanha', '320', '800', 'Revolução Industrial'),
-('2026003', 'Lasque', 'Abstrato', '16', '100', 'Idade Média Alta'),
-('2026004', 'Granadeiro', 'Abstrato', '21', '100', 'Idade Média Baixa'),
-('2026005', 'FT-17', 'França', '65', '600', 'Revolução Industrial'),
-('2026006', 'Sarbaz', 'Abstrato', '12', '60', 'Ásia Ocidental');
->>>>>>> 7d244de6ef6c33db2b9282704b947e58aec59384
 DELETE FROM tropa;
 
 SELECT USER(), DATABASE();
