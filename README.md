@@ -18,11 +18,11 @@ git clone https://github.com/Peromba/Projeto-War-Selection.git
 cd Projeto-War-Selection
 ```
 
-**2. Crie o banco de dados** executando o arquivo `script.sql` no MySQL:
+**2. Crie o banco de dados** no arquivo `script.sql` no MySQL:
 
-```bash
-mysql -u root -p < script.sql
-```
+
+Rode o script.sql no MySQL Workbench para gerar o banco bdnode, a tabela tropa e os registros.
+
 
 **3. Configure o arquivo `.env`:**
 
