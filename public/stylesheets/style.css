@@ -1,12 +1,12 @@
 :root {
-  --pincel: #a3201c;         
+  --pincel: #a3201c;
   --pincel-escuro: #6e1411;
-  --brasa: #e8872b;           
-  --fuligem: #17110e;         
-  --carvao: #241a15;         
-  --ferro: #33261f;           
-  --pergaminho: #eadcc3;      
-  --poeira: #a8977c;          
+  --brasa: #e8872b;
+  --fuligem: #17110e;
+  --carvao: #241a15;
+  --ferro: #33261f;
+  --pergaminho: #eadcc3;
+  --poeira: #a8977c;
   --fonte-titulo: "Cinzel", Georgia, "Times New Roman", serif;
 }
 
@@ -23,10 +23,11 @@ body {
   min-height: 100vh;
 
   background:
-    radial-gradient(ellipse at 100% 0%, rgba(232, 135, 43, 0.22), transparent 55%),
-    radial-gradient(ellipse at 0% 100%, rgba(163, 32, 28, 0.20), transparent 50%),
-    var(--fuligem);
-  background-attachment: fixed;
+  radial-gradient(ellipse at 100% 0%, rgba(232, 135, 43, 0.15), transparent 55%),
+  linear-gradient(rgba(23, 17, 14, 0.55), rgba(23, 17, 14, 0.85)),
+  url("../img/fundo.png") center / cover no-repeat;
+background-color: var(--fuligem);
+background-attachment: fixed;
 }
 
 h1 {
