@@ -1,15 +1,40 @@
-O tema do Trabalho foi escolhido referente a um jogo digital chamado War Selection.
+# War Selection
 
-Nome dos integrantes: Murilo Godoy, Julia Lavinia, Pedro Godoy, Enrico Rodrigues.
+Aplicação web feita com **Node.js, Express, EJS e MySQL** para cadastrar e listar dados do jogo digital **War Selection**.
 
-Execute esse codigo para clonar o repositorio:
+## Integrantes
+
+- Murilo Godoy
+- Julia Lavinia
+- Pedro Godoy
+- Enrico Rodrigues
+
+## Como instalar e executar
+
+**1. Clone o repositório e entre na pasta:**
+
+```bash
 git clone https://github.com/Peromba/Projeto-War-Selection.git
 cd Projeto-War-Selection
+```
 
-Execute esse codigo para configurar a senha do MySQL (.env), apos criar o arquivo adicione a senha do seu sistema:
+**2. Crie o banco de dados** executando o arquivo `script.sql` no MySQL:
+
+```bash
+mysql -u root -p < script.sql
+```
+
+**3. Configure o arquivo `.env`:**
+
+```bash
 cp .env.example .env
+```
 
-Execute o codigo no terminal na pasta do codigo no VSCODE para iniciar o servidor:
+Abra o `.env` e preencha com seus dados de acesso ao MySQL .
 
-npm install 
+**4. Instale as dependências e inicie o servidor:**
+
+```bash
+npm install
 npm start
+```
